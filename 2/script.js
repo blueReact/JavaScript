@@ -1,13 +1,18 @@
 var content = document.getElementById("content");
 var button = document.getElementById("showMore");
-button.onclick = function() {
+
+button.onmouseover = function() {
 
   if(content.className === 'open') {
     content.className = '';
     button.innerHTML = 'Show More';
   }
-  else {
+
+};
+
+button.onmouseout = function() {
+  if(content.className === '') { 
     content.className = 'open';
     button.innerHTML = 'Show Less';
   }
-}
+};
