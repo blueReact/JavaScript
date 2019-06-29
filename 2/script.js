@@ -16,3 +16,8 @@ button.onmouseout = function() {
     button.innerHTML = 'Show Less';
   }
 };
+
+
+// window.onload = function() {
+  
+}
