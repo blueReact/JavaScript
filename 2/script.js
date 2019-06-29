@@ -18,6 +18,4 @@ button.onmouseout = function() {
 };
 
 
-// window.onload = function() {
-  
-}
+// window.onload = function() { };
